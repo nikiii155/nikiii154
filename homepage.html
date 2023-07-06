@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <tittle></tittle>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+        }
+
+        .background-image {
+            width: 100%;
+            background-image: url(backimg.6.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .navbar {
+            width: 1200px;
+            height: 75px;
+            margin: auto;
+        }
+
+        .icon {
+            width: 200px;
+            float: left;
+            height: 70px;
+            color: black;
+
+        }
+
+        .logo {
+
+            color: black;
+            font-size: 35px;
+            font-family: Arial;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+        }
+
+        .menu {
+            width: 400px;
+            float: left;
+            height: 70px;
+
+        }
+
+        ul {
+
+            display: flex;
+            justify-content: center;
+            float: left;
+            align-items: center;
+
+
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 70px;
+            margin-top: 27px;
+            font-size: 20px;
+
+
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-family: Arial;
+            font-weight: bold;
+            transition: 0.4s ease-in-out;
+        }
+
+        ul li a:hover {
+            color: rgb(249, 242, 242);
+            font-size: x-large;
+
+
+        }
+
+        .search .btn {
+            width: 80px;
+            height: 38px;
+            background: black;
+            border-radius: 10px;
+            font-size: 13px;
+            text-decoration: none;
+            color: rgb(247, 235, 235);
+        }
+
+        .srch {
+            width: 370px;
+            border-radius: 10px;
+            width: 300px;
+            height: 40px;
+            background: black;
+            border: black;
+            margin-top: 40px;
+            font-size: 13px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: rgb(247, 237, 237);
+            text-decoration: none;
+            left: 200%;
+            align-items: center;
+            margin-left: 400px;
+            align-content: center;
+
+
+        }
+
+
+        .srch:focus {
+            outline: none;
+        }
+
+        .content {
+            width: 1000px;
+            height: 60px;
+            margin-top: 200px;
+            color: black;
+            position: relative;
+            padding-left: 50px;
+        }
+
+        .content .par {
+            padding-left: 70px;
+            padding-bottom: 25px;
+            font-family: Arial;
+            letter-spacing: 1.2px;
+            line-height: 30px;
+            font-size: 20px;
+
+        }
+
+        .content .order {
+            font-family: Arial;
+            font-size: 40px;
+            padding-left: 30px;
+            margin-top: 2%;
+            letter-spacing: 1px;
+        }
+
+        .content .cn a {
+            color: black;
+            text-decoration: none;
+            transition: .3s ease;
+            left: 50px;
+            position: 90px;
+        }
+
+        .form {
+            width: 200px;
+            height: 380px;
+            position: absolute;
+            top: -2px;
+            left: 1250px;
+            border-radius: 10px;
+            padding: 25px;
+            background-color: rgb(236, 230, 222);
+
+
+        }
+
+        .form .log {
+            width: 200px;
+            height: 30px;
+            background: rgb(149, 111, 111);
+            border: black;
+            margin-top: 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: black;
+            text-decoration: none;
+
+
+        }
+
+        .log:hover {
+            background: rgb(144, 80, 91);
+            color: black;
+        }
+
+        .log a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+
+        }
+
+        .form h2 {
+            width: 150px;
+            font-family: sans-serif;
+            text-align: center;
+            color: rgb(35, 34, 34);
+            font-size: 22px;
+            background-color: rgb(149, 111, 111);
+            border-radius: 10px;
+            margin: 2px;
+            padding: 8px;
+        }
+
+        .form input {
+            width: 200px;
+            height: 35px;
+            background: transparent;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            border-radius: 5px;
+            font-size: 10px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: sans-serif;
+            align-items: center;
+        }
+
+        .form input:focus {
+            outline: none;
+
+
+        }
+
+        .placeholder {
+            color: rgb(227, 175, 184);
+            font-family: Arial;
+
+
+        }
+
+        .font .link {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .form .link a {
+            text-decoration: none;
+            color: black
+        }
+
+        .liw {
+            padding-top: 15px;
+            padding-bottom: 10px;
+            text-align: cen;
+        }
+
+        .section {
+            width: 100%;
+            background-image: url(backimg.6.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+
+
+        }
+
+
+
+
+
+
+        .section,
+        h1 {
+            font-weight: bold;
+
+
+        }
+
+        .section,
+        p {
+            font-weight: bold;
+            margin-bottom: 40px;
+            text-align: justify;
+            word-spacing: 2px;
+            text-align: center;
+        }
+    </style>
+
+
+    <div class="background-image">
+        <div class="navbar">
+            <div class="icon">
+
+                <h2 lcass="logo"> FuTuRe BooKS</h2>
+
+            </div>
+            <div class="menu">
+
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                    <li><a href="#"> CONTECT</a></li>
+                    <li><a href="#">REVIEW</a></li>
+                    <li><a href="about">ABOUT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="seach" name="" placeholder="Type Your BOOK">
+                <a href="#"><button class="btn"> Search</button> </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Here,<br><span> INDIA'S LARGEST BOOK COLLECTION & <br>NETWORK </span><br></h1>
+            <p class="order"> Order your Genuine BooKS</p>
+            <P class="par"> From the confort of your home at Best Prices</P>
+
+
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter your email Here">
+                <input typr="password" name="" placeholder="Enter your password Here">
+                <button class="log"><a href="#">Login</a></button>
+
+                <p class="link"> Don't have an account</p>
+                <a href="#"> Sign up Here</a>
+                <p class="liw"> Log in with </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="about" class="section">
+        <div class="text">
+            <h1> AbOUT FOR BOOKS</h1>
+            <P>Books are synonymous with learning and education, and have been a concrete source of information and
+                knowledge for many generations.<BR> I
+                t is essential for children to develop a habit of reading books from a young age as it builds their
+                vocabulary and self-study skills.<BR>
+                Considering the role books play in education, ‘The Importance of Books’ is a popular topic for essay
+                writing assignments and frequently asked <br>as part of tests.
+                In this write-up, we will enlighten you on how to write an essay on the importance of books for classes
+                1, 2 and 3 in short and long formats.
+            </P>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
